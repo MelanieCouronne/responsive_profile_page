@@ -26,16 +26,72 @@ h1 {
 }
 
 h4 {
- font-size: 16px;
-    font-weight: 700;
-    padding: 30px 40px 15px 40px;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 30px 40px 15px 40px;
 }
-
 
 p, li {
   font-size: 16px;
 }
 
+
+/* General CSS refactorisations */
+li {
+  list-style: none;
+  padding-bottom: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(0,0,0,0.7);
+  font-size: 16px;
+}
+
+a:hover {
+  color: rgba(0,0,0,0.9);
+  text-decoration: none;
+}
+
+
+/* Generals margin and padding */
 p {
   margin-bottom: 0;
+}
+
+.margin-center {
+  margin: 30px auto;
+}
+
+.margin-t0 {
+  margin-top: 0;
+}
+
+.margin-t30 {
+  margin-top: 30px;
+}
+
+.margin-t35 {
+  margin-top: 35px;
+}
+
+.margin-b15 {
+  margin-bottom: 15px;
+}
+
+.margin-b20 {
+  margin-bottom: 20px;
+}
+
+
+/* Generals list outfit */
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 6px 20px;
+  margin-bottom: 5px;
 }

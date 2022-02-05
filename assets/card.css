@@ -1,0 +1,90 @@
+/* ID */
+#content-overflow {
+  font-size: 14px;
+}
+
+/* Class */
+.card-xl, .card-md {
+  width: 290px;
+}
+
+.card-xl, .card-md {
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.card-xl {
+  height: 455px;
+}
+
+.card-md {
+  height: 385px;
+}
+
+.card-sm, .card-xs {
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  width: 290px; /*340px*/
+  height: 180px;
+  margin: 30px auto;
+}
+
+.card-content {
+  margin: 65px 30px 25px 38px;
+}
+
+.card-content p {
+  color: rgba(0,0,0,0.4);
+  margin: 10px 0;
+}
+
+.card-md > h4 {
+  margin: 0;
+}
+
+.card-md p {
+  padding: 5px 40px 35px 40px;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.card-md > span {
+  padding: 6px 20px;
+  margin: 10px 0 30px 0;
+  position: absolute;
+  bottom: -8px;
+  left: 40px;
+  cursor: pointer;
+}
+
+.card-sm > h4, .card-xs > h4 {
+  margin: 0;
+}
+
+.card-sm ul, .card-xs ul {
+  padding: 0px 40px;
+  justify-items: center;
+}
+
+.card-sm li i, .card-xs li i {
+  color: rgba(0,0,0,0.2);
+  font-size: 23px;
+  padding-right: 15px;
+}
+
+.card-sm li, .card-xs li {
+  display: flex;
+  align-items: center;
+}
+
+.overflow {
+  overflow: hidden;
+  height: 25px;
+}
+
+.more-height {
+  height: 1040px;
+}

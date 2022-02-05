@@ -1,0 +1,33 @@
+.box {
+  position: absolute;
+  left: 30px;
+  top: 127px;
+  background-color: transparent;
+  width: 80px;
+  height: 80px;
+  perspective: 1000px;
+}
+
+.box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+}
+
+.box:hover .box-inner {
+  transform: rotateY(180deg);
+}
+
+.box-front, .box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.box-back {
+  transform: rotateY(180deg);
+}

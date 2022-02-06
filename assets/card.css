@@ -1,6 +1,6 @@
 /* ID */
-#content-overflow {
-  font-size: 14px;
+#content-overflow > p {
+  font-size: 16px;
 }
 
 /* Class */
@@ -82,7 +82,7 @@
 
 .overflow {
   overflow: hidden;
-  height: 25px;
+  height: 250px;
 }
 
 .more-height {

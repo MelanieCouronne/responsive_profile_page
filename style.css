@@ -1,10 +1,10 @@
 /* Stylesheets import */
-@import './assets/avatar.css';
-@import './assets/banner.css';
-@import './assets/box.css';
-@import './assets/button.css';
-@import './assets/card.css';
-@import './assets/media.css';
+@import '/assets/avatar.css';
+@import '/assets/banner.css';
+@import '/assets/box.css';
+@import '/assets/button.css';
+@import '/assets/card.css';
+@import '/assets/media.css';
 
 /* Import Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');

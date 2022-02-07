@@ -23,7 +23,6 @@
   position: absolute;
   right: 30px;
   top: 263px;
-  display: flex;
   justify-content: space-around;
   align-items: center;
   background-color: #5064f7;
@@ -68,10 +67,6 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  .btn-rect-blue {
-    display: none;
-  }
-
   .btn-circle-blue {
     right: 35px;
     top: 190px;

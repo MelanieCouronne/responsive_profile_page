@@ -3,12 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700&display=swap');
 
 /* Stylesheets import */
-@import '/responsive_profile_page/components/avatar.css';
-@import '/responsive_profile_page/components/banner.css';
-@import '/responsive_profile_page/components/box.css';
-@import '/responsive_profile_page/components/button.css';
-@import '/responsive_profile_page/components/card.css';
-@import '/responsive_profile_page/components/media.css';
+@import '../components/avatar.css';
+@import '../components/banner.css';
+@import '../components/box.css';
+@import '../components/button.css';
+@import '../components/card.css';
+@import '../components/media.css';
 
 /* Font refactorisations */
 body {

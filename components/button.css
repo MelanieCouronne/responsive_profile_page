@@ -21,8 +21,6 @@
   width: 150px;
   height: 34px;
   position: absolute;
-  right: 30px;
-  top: 263px;
   justify-content: space-around;
   align-items: center;
   background-color: #5064f7;
@@ -67,17 +65,11 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  .btn-circle-blue {
-    right: 35px;
-    top: 190px;
-  }
-}
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-  .btn-rect-blue{
+   .btn-rect-blue {
     display: flex;
     font-size: 16px;
+    right: 30px;
+    top: 194px;
   }
   .btn-rect-blue p{
     display: flex;
@@ -85,5 +77,13 @@
   }
   .btn-circle-blue {
     display: none;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .btn-rect-blue {
+    right: 30px;
+    top: 263px;
   }
 }

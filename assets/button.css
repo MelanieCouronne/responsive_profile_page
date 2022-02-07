@@ -3,7 +3,7 @@
   opacity: 0.8;
 }
 
-#btn-more:hover {
+#btn-more:hover, #btn-more:active {
   opacity: 1;
 }
 
@@ -34,7 +34,7 @@
   text-align: center;
   opacity: 0.9;
 }
-.btn-rect-blue:hover {
+.btn-rect-blue:hover, .btn-rect-blue:active {
   color: white;
   text-decoration: none;
   opacity: 1;
@@ -60,7 +60,7 @@
 }
 
 
-.btn-circle-blue:hover {
+.btn-circle-blue:hover, .btn-circle-blue:active {
   color: white;
   text-decoration: none;
   opacity: 1;

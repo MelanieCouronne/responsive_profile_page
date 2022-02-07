@@ -1,7 +1,0 @@
-/* Small devices (landscape phones, 576px and up) */
-@media (max-width: 767px) {
-  .row{
-    display: flex;
-    flex-flow: column;
-  }
-}

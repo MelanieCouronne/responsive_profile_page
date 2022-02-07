@@ -36,6 +36,66 @@
   margin: 65px 30px 25px 38px;
 }
 
+.overflow {
+  overflow: hidden;
+  height: 250px;
+}
+
+.more-height {
+  height: 1040px;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .card-xl, .card-md, .banner {
+    width: 684px;
+  }
+  .card-xl {
+    height: 390px;
+  }
+  .card-md {
+    height: 250px;
+  }
+  .card-sm, .card-xs {
+    width: 325px;
+    height: 180px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .card-content {
+    margin: 20px 0 20px 180px;
+  }
+  .overflow {
+    height: 120px;
+  }
+  .more-height {
+    height: 570px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .card-xl, .card-md, .banner {
+    width: 620px;
+  }
+  .card-xl {
+    height: 455px;
+  }
+  .card-sm, .card-xs {
+    width: 290px;
+  }
+  .card-sm {
+   height: 180px;
+  }
+  .card-xs {
+    height: 162px;
+  }
+  .more-height {
+    height: 630px;
+  }
+}
+
+
 .card-content p {
   color: rgba(0,0,0,0.4);
   margin: 0;
@@ -75,16 +135,12 @@
   padding-right: 15px;
 }
 
+
+.card-sm li i:hover, .card-xs li i:hover {
+  color: #5064f7;
+}
+
 .card-sm li, .card-xs li {
   display: flex;
   align-items: center;
-}
-
-.overflow {
-  overflow: hidden;
-  height: 250px;
-}
-
-.more-height {
-  height: 1040px;
 }

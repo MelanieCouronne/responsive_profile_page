@@ -6,3 +6,17 @@
   height: 160px;
   width: 290px;
 }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .banner {
+    height: 180px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .banner {
+    height: 250px;
+  }
+}

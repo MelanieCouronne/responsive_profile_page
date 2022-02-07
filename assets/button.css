@@ -23,9 +23,9 @@
   position: absolute;
   right: 30px;
   top: 263px;
-  /* display: flex;
+  display: flex;
   justify-content: space-around;
-  align-items: center; */
+  align-items: center;
   background-color: #5064f7;
   border-radius: 5px;
   padding: 0px 10px;
@@ -64,4 +64,31 @@
   color: white;
   text-decoration: none;
   opacity: 1;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .btn-rect-blue {
+    display: none;
+  }
+
+  .btn-circle-blue {
+    right: 35px;
+    top: 190px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .btn-rect-blue{
+    display: flex;
+    font-size: 16px;
+  }
+  .btn-rect-blue p{
+    display: flex;
+    font-size: 14px;
+  }
+  .btn-circle-blue {
+    display: none;
+  }
 }

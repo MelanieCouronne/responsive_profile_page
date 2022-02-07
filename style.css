@@ -9,7 +9,8 @@
 @import '/assets/button.css';
 @import '/assets/card.css';
 @import '/assets/media.css';
-
+@import '/assets/queries-md.css';
+@import '/assets/queries-sm.css';
 
 /* Font refactorisations */
 body {
@@ -70,10 +71,6 @@ p {
 
 .margin-t0 {
   margin-top: 0;
-}
-
-.margin-t30 {
-  margin-top: 30px;
 }
 
 .margin-t35 {

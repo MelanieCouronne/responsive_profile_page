@@ -57,6 +57,22 @@ a:hover, a:active {
   text-decoration: none;
 }
 
+.fa, .fab, .fal, .far, .fas {
+  line-height: inherit;
+}
+
+.fa-linkedin {
+  color: #0966c2; /* Linkedin color */
+}
+.fa-github {
+  color: #24292f; /* GitHub color */
+}
+.fa-lightbulb {
+  color: #fedc7e;
+}
+.fa-building {
+  color: rgba(0,0,0,0.2);
+}
 
 /* Generals margin and padding */
 p {
